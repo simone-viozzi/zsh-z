@@ -120,7 +120,7 @@ to your `.zshrc`, your completion menus will look very nice. This `zstyle` invoc
 
 Add the line
 
-    antigen bundle agkozak/zsh-z
+    antigen bundle simone-viozzi/zsh-z
 
 to your `.zshrc`, somewhere above the line that says `antigen apply`.
 
@@ -128,7 +128,7 @@ to your `.zshrc`, somewhere above the line that says `antigen apply`.
 
 Execute the following command:
 
-    git clone https://github.com/agkozak/zsh-z ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-z
+    git clone https://github.com/simone-viozzi/zsh-z ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-z
 
 and add `zsh-z` to the line of your `.zshrc` that specifies `plugins=()`, e.g., `plugins=( git zsh-z )`.
 
@@ -136,7 +136,7 @@ and add `zsh-z` to the line of your `.zshrc` that specifies `plugins=()`, e.g., 
 
 Execute the following command:
 
-    git clone https://github.com/agkozak/zsh-z.git ~/.zprezto-contrib/zsh-z
+    git clone https://github.com/simone-viozzi/zsh-z.git ~/.zprezto-contrib/zsh-z
 
 Then edit your `~/.zpreztorc` file. Make sure the line that says
 
@@ -175,7 +175,7 @@ Then relaunch `zsh`.
         
 Simply add
 
-    zcomet load agkozak/zsh-z
+    zcomet load simone-viozzi/zsh-z
 
 to your `.zshrc` (below where you source `zcomet.zsh` and above where you run `zcomet compinit`).
 
@@ -183,7 +183,7 @@ to your `.zshrc` (below where you source `zcomet.zsh` and above where you run `z
 
 Add the line
 
-    zgen load agkozak/zsh-z
+    zgen load simone-viozzi/zsh-z
 
 somewhere above the line that says `zgen save`. Then run
 
@@ -196,7 +196,7 @@ to refresh your init script.
 
 Add the following line to your `.zimrc`:
 
-    zmodule https://github.com/agkozak/zsh-z
+    zmodule https://github.com/simone-viozzi/zsh-z
 
 Then run
 
@@ -208,17 +208,17 @@ and restart your shell.
 
 Add the line
 
-    zinit load agkozak/zsh-z
+    zinit load simone-viozzi/zsh-z
 
 to your `.zshrc`.
 
-`zsh-z` supports `zinit`'s `unload` feature; just run `zinit unload agkozak/zshz` to restore the shell to its state before `zsh-z` was loaded.
+`zsh-z` supports `zinit`'s `unload` feature; just run `zinit unload simone-viozzi/zshz` to restore the shell to its state before `zsh-z` was loaded.
 
 ### For [Znap](https://github.com/marlonrichert/zsh-snap) users
 
 Add the line
 
-    znap source agkozak/zsh-z
+    znap source simone-viozzi/zsh-z
 
 somewhere below the line where you `source` Znap itself.
 
@@ -226,7 +226,7 @@ somewhere below the line where you `source` Znap itself.
 
 Add the line
 
-    zplug "agkozak/zsh-z"
+    zplug "simone-viozzi/zsh-z"
 
 somewhere above the line that says `zplug load`. Then run
 
