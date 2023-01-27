@@ -1,3 +1,5 @@
+# please use [zoxide](https://github.com/ajeetdsouza/zoxide)
+
 # Zsh-z
 
 [![MIT License](img/mit_license.svg)](https://opensource.org/licenses/MIT)
